@@ -12,4 +12,7 @@ router.get('/', vehicleLogsController.getLogs);
 // Vehicle entry log
 router.post('/entry', vehicleLogsController.entryLog);
 
+// Vehicle exit log
+router.post('/exit', vehicleLogsController.exitLog);
+
 module.exports = router;

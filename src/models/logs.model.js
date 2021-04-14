@@ -28,5 +28,16 @@ Vehicle.entryLog = (vehicle, result) => {
     });
 };
 
+Vehicle.exitLog = (vehicle, result) => {
+    const exitLogSql = `CALL vehicle_exit('${vehicle.vehicle_id}')`;
+    dbConnect.query(exitLogSql, (err, data) => {
+        if (err) {
+            result(err, null);
+        } else {
+            result(null, data);
+        }
+    });
+};
+
 
 module.exports= Vehicle;

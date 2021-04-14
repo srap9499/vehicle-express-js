@@ -1,0 +1,23 @@
+{
+  "name": "vehicle-express-js",
+  "version": "1.0.0",
+  "description": "vehicle logs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srap9499/vehicle-express-js.git"
+  },
+  "keywords": [
+    "vehicle",
+    "logs"
+  ],
+  "author": "Siddhesh Panchal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srap9499/vehicle-express-js/issues"
+  },
+  "homepage": "https://github.com/srap9499/vehicle-express-js#readme"
+}

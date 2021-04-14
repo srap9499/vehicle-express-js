@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
     res.send('Hello!');
 });
 
+const vehicleLogsRouter = require('./src/routes/logs.routes');
+
+app.use('/logs', vehicleLogsRouter);
+
 app.listen(port, () => {
     console.log(`Server started on port number: ${port}`);
 });
